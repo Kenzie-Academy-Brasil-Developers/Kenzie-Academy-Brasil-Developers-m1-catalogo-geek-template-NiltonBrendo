@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 5px solid #b0bac2;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    background-color:#0A99FE10;
+    color: #0A99FE;
+}
+
+button:hover{
+    background-color: #0A99FE;
+    color: white;
+}
+
+.cardsPaintings{
+    width: 207px;
+    height: 275px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 5px;
+}
+
+.cardsActionFigures{
+    width: 207px;
+    height: 275px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 5px;
+}
+
+img {
+    width: 197px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+p {
+    color: #868383;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    background-color: #e4dede;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+section {
+    overflow-x: auto;
+}
+
+.logo-header {
+    height: 50px;
+}
