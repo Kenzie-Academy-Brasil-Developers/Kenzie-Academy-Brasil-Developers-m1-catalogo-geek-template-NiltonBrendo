@@ -59,6 +59,7 @@ img {
 
 p {
     color: #868383;
+    font-size: 20px;
 }
 
 li {
@@ -75,4 +76,8 @@ section {
 
 .logo-header {
     height: 50px;
+}
+
+.title-section {
+    color: #1B1B1B;
 }
