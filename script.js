@@ -106,6 +106,7 @@ function cardForActionFigures() {
 
       let name = document.createElement("h3")
       name.innerHTML = list1.name
+      name.classList.add("title-action")
 
       let price = document.createElement("p")
       price.innerHTML = list1.price
@@ -138,6 +139,7 @@ function cardForPaintings() {
         
         let name = document.createElement("h3")
         name.innerHTML = list1.name
+        name.classList.add("title-paintings")
         
         let price = document.createElement("p")
         price.innerHTML = list1.price

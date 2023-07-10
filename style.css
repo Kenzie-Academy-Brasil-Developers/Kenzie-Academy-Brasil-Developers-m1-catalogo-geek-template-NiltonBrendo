@@ -81,3 +81,11 @@ section {
 .title-section {
     color: #1B1B1B;
 }
+
+.title-paintings, .title-action {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
